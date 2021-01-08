@@ -97,7 +97,7 @@ Complete the following steps to configure SUMA to use the proxy settings:
 
       ![Configuring proxy settings](./images/terminal-configuring-proxy-settings.svg "Configuring proxy settings"){: caption="Figure 1. Configuring proxy settings" caption-side="bottom"}
 
-      Where, *xx.xx.xx.xx* is the IP address of the proxy and *5026* is the port number that is used to connect to the proxy settings. When you press **Enter**, a test connection determines whether the AIX LPAR is authenticated to access the internet by using the proxy settings. The common values for proxy port number are *3138* or *8080*.
+      Where, *xx.xx.xx.xx* is the IP address of the proxy and *5026* is the port number that is used to connect to the proxy settings. When you press **Enter**, a test connection determines whether the AIX LPAR is authenticated to access the internet by using the proxy settings. The common values for proxy port number are *3128* or *8080*.
 
 4. Run the `smit suma_config_base` command to access the SUMA base configuration SMIT interface. Verify the fields that are shown in the **Base Configuration** screen capture.
 
